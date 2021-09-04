@@ -3,7 +3,7 @@ body{
     font-size: 1.0rem;
 }
 
-.container{
+.container{https://github.com/rokko2massy/SmartTripDiary_portal/blob/main/style.css
     padding: 5px;
 }
 
@@ -24,22 +24,18 @@ table{
    border:1px solid #333;
 }
 
-table tbody{
+tbody{
    border-collapse: collapse;
    border:1px solid #333;
 }
 
-table thead{
+thead{
    border-collapse: collapse;
    border:1px solid #333;
 }
 
-table tbody td{
+td, th{
    border-collapse: collapse;
    border:1px solid #333;
 }
 
-table thead th{
-   border-collapse: collapse;
-   border:1px solid #333;
-}
