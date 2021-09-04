@@ -32,5 +32,14 @@ table tbody{
 table thead{
    border-collapse: collapse;
    border:1px solid #333;
-    font-weight:700;
+}
+
+table tbody td{
+   border-collapse: collapse;
+   border:1px solid #333;
+}
+
+table thead th{
+   border-collapse: collapse;
+   border:1px solid #333;
 }
