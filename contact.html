@@ -14,30 +14,32 @@
     <div class="container">
     <h1>「かんたん旅行記」お問い合わせフォーム</h1>
     <div class="row">
-      <div class="col-md-6 align-self-center">
+      <div class="col align-self-center">
         <div class="card">
-          <div class="card">
             <div class="card-body">
               <form
                 action="https://formspree.io/f/mnqlwazg"
                 method="POST"
+                class="needs-validation"
               >
                 <div class="mb-3">
                 <label class="form-label" for="id_replyto">メールアドレス</label>
-                  <input type="email" name="_replyto" class="form-control" id="id_replyto">
-                
+                  <input type="email" name="_replyto" class="form-control" id="id_replyto" required>
+                  <div class="invalid-feedback">
+                    メールアドレスの形式が正しくありません。
+                  </div>                
                 </div>
                 <div class="mb-3">
                 <label class="form-label" for="id_message">お問い合わせ内容</label>
-                  <textarea name="message" class="form-control" id="id_message"></textarea>
+                  <textarea name="message" class="form-control" id="id_message" required></textarea>
                 </div>
-                <!-- your other form fields go here -->
-                <button type="submit">送信</button>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">送信</button>
+                </div>
               </form>
             </div>
-          </div>
         </div>
-
       </div>
     </div>
 
